@@ -49,7 +49,7 @@ else {
 Below is an extract from a code for temperature sensor system
 [source,arduino]
 ----
-if (temperature >= 70) {
+if (temperature =< 70) {
   // Danger! Shut down the system.
 }
 else if (temperature >= 60) { // 60 <= temperature < 70
